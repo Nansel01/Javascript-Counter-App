@@ -37,6 +37,7 @@ function reset(){
   count = 0;
   savedValuesArray = ["Previous Entries were"];
   saveEl.innerHTML = 'No Previous Entries'
+  countEl.innerHTML = 0;
 }
 
 console.log(savedFromStorage);
